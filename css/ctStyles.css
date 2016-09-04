@@ -23,8 +23,12 @@
 
 .header h1 {
     font-size: 2em;
-    margin-left: 40px;
-    margin-right: 20px;
+    text-align: center;
+}
+
+.breadcrumbs h3 {
+    font-size: 0.7em;
+    text-align: center;
 }
 
 .main_page_links li:hover {
@@ -36,14 +40,21 @@
     background-color: #86bbd8;
     border-top: 1px solid #33658a;
     text-align: center;
-    position: fixed;
     width: 100%;
     bottom: 0%;
     }
 
+
 .footer #c {
     color:  #f26419;
 }
+
+/*----- MAIN PAGE CONTENT -----*/
+
+.main_page_content {
+    padding-bottom: 15px;
+}
+
 
 /*----- SMALLER DEVICES -----*/
 @media (max-width: 768px) {
@@ -85,7 +96,7 @@
 /*----- MEDIUM DEVICES -----*/
 @media (max-width: 991px) and (min-width: 768px) {
     .footer {
-        position: relative;
+        position: relative !important;
     }
 }
 
@@ -96,6 +107,7 @@
 .header h1{
     font-size: 3em;
     }
+    
 /* Main Page Links */
 .main_page_links {
     padding-top: 20px;
@@ -120,5 +132,8 @@
     margin-bottom: 20px;
     height: 180px;
     background-color: #86bbd8;
+}
+#mainfooter {
+    position: fixed;
 }
 }
