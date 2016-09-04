@@ -60,14 +60,18 @@
 .main_page_links ul {
     padding-bottom: 20px;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .main_page_links li {
     padding: 10px 10px 10px 10px;
     opacity: 0.5;
-    margin-right: 20px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    margin-bottom: 20px;
     margin-bottom: 10px;
-    width: 80%;
     height: 100px;
     background-color: #86bbd8;
 }
@@ -76,6 +80,13 @@
         position: relative;
     }
     
+}
+
+/*----- MEDIUM DEVICES -----*/
+@media (max-width: 991px) and (min-width: 768px) {
+    .footer {
+        position: relative;
+    }
 }
 
 /*----- BIGGER DEVICES -----*/
@@ -96,16 +107,18 @@
 .main_page_links ul {
     padding-bottom: 20px;
     margin-left: 30px;
+    margin-right: 30px;
 }
 
 .main_page_links li {
     padding: 10px 10px 10px 10px;
     opacity: 0.5;
-    margin-left: 10px;
-    margin-right: 10px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-left-width: 10px;
+    border-right-width: 10px;
     margin-bottom: 20px;
-    width: 20%;
-    height: 200px;
+    height: 180px;
     background-color: #86bbd8;
 }
 }
