@@ -55,6 +55,10 @@
     padding-bottom: 15px;
 }
 
+.btn {
+    padding: 5px 50px 5px 50px;
+    border-radius: 0;
+}
 
 /*----- SMALLER DEVICES -----*/
 @media (max-width: 768px) {
@@ -65,7 +69,7 @@
     padding-top: 20px;
     font-family: 'Helvetica';
     font-size: 1.2em;
-    color: #33658a;
+    background-color: #33658a;
 }
 
 .main_page_links ul {
@@ -116,6 +120,10 @@
     color: #33658a;
 }
 
+    .main_page_content p {
+        font-size: 1.2em;
+    }
+    
 .main_page_links ul {
     padding-bottom: 20px;
     margin-left: 30px;
